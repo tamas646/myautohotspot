@@ -1,0 +1,12 @@
+## Enable or disable the script (1-enable, 0-disable)
+export MY_ENABLED=1
+
+## The following three variable must be given in order to working properly
+export MY_ETH_IF="eth0"
+export MY_WLAN_IF="wlan0"
+export MY_HOTSPOT_CONNECTION_NAME="Hotspot"
+
+## Optional variable. You can set a network filter to check if both interfaces connecting to the same network specified below.
+## If so, only then will the hotspot be turned on.
+## Notice that the hotspot will always be shut down on ethernet disconnect.
+#export MY_FILTER="inet <ip_addr>  netmask <netmask>  broadcast <broadcast_addr>"

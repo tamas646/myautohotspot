@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+case "$1" in
+	configure)
+		cd /etc/network/if-up.d/
+		if [[ ! -f myautohotspot ]]
+		then
+			ln -s ../../myautohotspot/ifupdown.sh myautohotspot
+		fi
+		cd /etc/network/if-post-down.d/
+		if [[ ! -f myautohotspot ]]
+		then
+			ln -s ../../myautohotspot/ifupdown.sh myautohotspot
+		fi
+
+		;;
+esac
