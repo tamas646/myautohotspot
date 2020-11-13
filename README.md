@@ -12,6 +12,8 @@ This script can be run in two modes:
   - the Hotspot will turn on if the ethernet interface connects to a network
   - the Hotspot will turn off if the ethernet interface disconnects
 
+Before you start using it, you have to change the settings in `/etc/myautohotspot/config` to fit your hardware.
+
 ## Installation
 - You can either [download](https://github.com/tamas646/myautohotspot/raw/main/myautohotspot_1.1.0_all.deb) and install the deb package or use the source code and setup it yourself.
 
