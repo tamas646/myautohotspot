@@ -1,5 +1,5 @@
 Package: myautohotspot
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Depends: bash,coreutils,net-tools
 Maintainer: Pesti Tamás <ptamas2002@gmail.com>

@@ -4,11 +4,11 @@ set -e
 
 case "$1" in
 	remove|purge)
-		if [[ ! -f /etc/network/if-up.d/myautohotspot ]]
+		if [[ -f /etc/network/if-up.d/myautohotspot ]]
 		then
 			rm /etc/network/if-up.d/myautohotspot
 		fi
-		if [[ ! -f /etc/network/if-post-down.d/myautohotspot ]]
+		if [[ -f /etc/network/if-post-down.d/myautohotspot ]]
 		then
 			rm /etc/network/if-post-down.d/myautohotspot
 		fi

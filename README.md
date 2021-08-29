@@ -15,7 +15,7 @@ This script can be run in two modes:
 Before you start using it, you have to change the settings in `/etc/myautohotspot/config` to fit your hardware.
 
 ## Installation
-- You can either [download](https://github.com/tamas646/myautohotspot/raw/main/myautohotspot_1.1.0_all.deb) and install the deb package or use the source code and setup it yourself.
+- You can either [download](https://github.com/tamas646/myautohotspot/raw/main/myautohotspot_1.1.1_all.deb) and install the deb package or use the source code and setup it yourself.
 
 - If you wish, you can install it from my apt repository too:
 
